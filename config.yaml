@@ -1,0 +1,9 @@
+model_list:
+  - model_name: "*"
+    litellm_params:
+      model: "*"
+      api_base: os.environ/PROVIDER_BASE_URL
+      api_key: os.environ/PROVIDER_API_KEY
+
+general_settings:
+  master_key: os.environ/MASTER_KEY
